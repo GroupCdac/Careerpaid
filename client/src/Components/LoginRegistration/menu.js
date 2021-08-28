@@ -20,21 +20,16 @@ const Navbar = () => {
         
         <NavMenu>
         <img src={logo} className="App-logo" alt="logo" />
-          <NavLink  to='/My profile' activeStyle>
-          My profile
+          <NavLink  to='/Aboutus' activeStyle>
+          Aboutus
           </NavLink>
-          <NavLink to='/postNewJob' activeStyle>
-          New Job
+          <NavLink to='/Login' activeStyle>
+          Login
           </NavLink>
-          <NavLink to='/Candidates' activeStyle>
-          Candidates
+          <NavLink to='/Registration' activeStyle>
+          Registration
           </NavLink>
-          <NavLink to='/postedJobs' activeStyle>
-          Posted Jobs
-          </NavLink>
-          <NavLink to='/Logout' activeStyle>
-            Logout
-          </NavLink>
+          
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>

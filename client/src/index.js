@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './Components/company/menu'
-import CompanyPage from './Components/company/dashBoard'
+import MainPage from './Components/LoginRegistration/mainPage';
+import Navbar from './Components/company/menu';
+import CompanyPage from './Components/company/dashBoard';
+import LoginPage from './Components/LoginRegistration/login';
 
 ReactDOM.render(
-  <React.StrictMode>
-    < CompanyPage/>
-  </React.StrictMode>,
+  
+    <MainPage/>,
+ 
   document.getElementById('root')
 );
 
